@@ -6,8 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #3a3a3a url(../img/background.png) no-repeat center top fixed;
-  background-size: cover;
+  background: #3a3a3a url(../img/background.png);
   font-family: Verdana, Geneva, sans-serif;
 }
 p {
@@ -736,6 +735,11 @@ p {
   }
   .footer-header-logo {
     margin: 0;
+  }
+}
+@media (max-width: 668px) {
+  .slider__text p {
+    display: none;
   }
 }
 @media (max-width: 480px) {
