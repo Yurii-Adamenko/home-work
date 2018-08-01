@@ -18,6 +18,25 @@
         <span class="header-logo__description">Your Jazzy Slogan</span>
       </div>
       <nav class="header-menu">
+        <div class="hamburger closed">
+          <div class="burger-main">
+            <div class="burger-inner">
+              <span class="top"></span>
+              <span class="mid"></span>
+              <span class="bot"></span>
+            </div>
+          </div>
+          <div class="svg-main">
+            <svg class="svg-circle">
+            <path class="path" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4" d="M23,46a23,23 0 1,0 46,0a23,23 0 1,0 -46,0"/>
+            </svg>
+          </div>
+          <div class="path-burger">
+            <div class="animate-path">
+              <div class="path-rotation"></div>
+            </div>
+          </div>
+        </div>
         <ul class="header-menu__list">
           <li class="header-menu__item header-menu__item--active"><a href="#">Home</a></li>
           <li class="header-menu__item"><a href="#">Products</a></li>
@@ -57,15 +76,15 @@
           <p>Cum sociis natoque penatibus et magnis dis parturient montes, <span class="main--text-changes">nascetur ridiculus mus. Vestibulum est massa, varius eget placerat non, laoreet nec erat. Suspendisse potenti.</span> Donec molestie porta mauris quis venenatis. Aliquam quis leo est, vel blandit turpis. Quisque sed metus diam, iaculis cursus nulla.  </p>
         </div>
         <div class="bottom-sidebar">
-          <div class="bottom-slider__item">
-            <div class="bottom-slider__item__img"><img src="img/icon_clock.png" alt=""></div>
-            <div class="bottom-slider__item__text">
+          <div class="bottom-sidebar__item">
+            <div class="bottom-sidebar__item__img"><img src="img/icon_clock.png" alt=""></div>
+            <div class="bottom-sidebar__item__text">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat.</p>
             </div>
           </div>
-          <div class="bottom-slider__item">
-            <div class="bottom-slider__item__img"><img src="img/icon_coffee.png" alt=""></div>
-            <div class="bottom-slider__item__text">
+          <div class="bottom-sidebar__item">
+            <div class="bottom-sidebar__item__img"><img src="img/icon_coffee.png" alt=""></div>
+            <div class="bottom-sidebar__item__text">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat.</p>
             </div>
           </div>
@@ -84,13 +103,14 @@
           </div>
         </div>
         <div class="twitter__slogan">
+          <img class="twitter__slogan__bg" src="img/bg_text_twitter.png" alt="" >
           <p class="twitter__slogan__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <span class="twitter__slogan__date">Posted 4 Days Ago</span>
         </div>
       </div>
       <div class="footer-text">
         <div class="footer-top-side">
-          <nav class="header-menu">
+          <nav class="header-menu footer-header-menu">
             <ul class="header-menu__list">
               <li class="header-menu__item"><a href="#">Home</a></li>
               <li class="header-menu__item"><a href="#">Products</a></li>
@@ -115,5 +135,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
   </body>
 </html>
