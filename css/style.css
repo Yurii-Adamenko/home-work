@@ -48,7 +48,6 @@ p {
   color: #b3b3b3;
   text-align: right;
   font-size: 11px;
-  font-family: Verdana, Geneva, sans-serif;
 }
 .header-menu__list {
   display: flex;
@@ -170,7 +169,7 @@ p {
 .left-sidebar__title,.main h1{
   margin: 21px 0 12px;
   color: #0b81be;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   font-weight: normal;
   font-size: 24px;
 }
@@ -688,6 +687,9 @@ p {
   .header-menu__list {
     display: none;
     width: 100%;
+  }
+  .header-menu__list a {
+    border-radius: 0;
   }
   .hamburger {
     display: block;
