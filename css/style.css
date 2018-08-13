@@ -74,8 +74,7 @@ p {
   color: #fefefe;
 }
 .container {
-  padding: 15px;  
-  min-height: calc(100vh - 120px - 236px);
+  padding: 0;  
   width: 100%;
   border: 16px solid rgba(255, 255, 255, 0.1);
   background-color: #ececec;
@@ -83,6 +82,9 @@ p {
   box-shadow: 0 0 0 1px #626262;
 }
 .slider {
+  padding: 15px;
+}
+.slider--wrapper {
   position: relative;
   display: flex;
   padding: 6px;
@@ -152,6 +154,8 @@ p {
 .content {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 0;
 }
 .left-sidebar {
   position: relative;
@@ -167,7 +171,7 @@ p {
   content:"";
 }
 .left-sidebar__title,.main h1{
-  margin: 21px 0 12px;
+  margin: 10px 0;
   color: #0b81be;
   letter-spacing: -2px;
   font-weight: normal;
